@@ -1,37 +1,57 @@
 img {
 
-height: 200px;
-width: 200px;
+height: 100px;
+width: 100px;
 
 }
 
 #red {
+    text-align: center;
+    font-family: 'Caveat', cursive;
+    font-size: 3rem;
     color:red
 }
 
 #blue {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-size: 34px;
     color:blue
 }
 
 #green {
+    font-weight: 700;
+    text-align: right;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color:green
 }
 
 #orange {
+    text-align: left;
+    font-size: 42px;
     color:orange
 }
 
 #yellow {
-    color:yellow
+    font-size: 2rem;
+    text-align:right;
+    color: yellow
+}
+
+html{
+    font: size 30px;
 }
 
 body{
     background-color: antiquewhite;
+
 }
 
 h1{
     color:whitesmoke;
+    text-align: center;
     background-color: darkseagreen;
+    font-size: 48px;
 }
 
 h2{
