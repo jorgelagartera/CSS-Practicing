@@ -1,7 +1,3 @@
-img {
-height: 100px;
-width: 100px;
-}
 
 html{
     font: size 30px;
@@ -22,11 +18,6 @@ h1{
 h2{
     color: #FAF8F1;
     background-color: #C58940;
-}
-
-div {
-    height: 200px;
-    width: 200px;
 }
 
 
@@ -67,6 +58,8 @@ div {
     background-color: cadetblue;
     padding: 20px;
     border: 10px solid black;
+    height: 200px;
+    width: 200px;
 }
 
 .boxmodel2 {
@@ -74,12 +67,16 @@ div {
     border: solid black;
     border-width: 20px 10px;
     margin-left: 260px;
+    height: 200px;
+    width: 200px;
 }
 
 .boxmodel3 {
     background-color: indianred;
     border: 10px solid black;
     margin-left: 40px;
+    height: 200px;
+    width: 200px;
 }
 
 .mainlinks {
@@ -96,3 +93,38 @@ div {
     text-indent: 20px;
 }
 
+.image {
+    height: 100px;
+    width: 100px;
+    align-items: center;
+}
+
+.image, .imagegooglefonts {
+    height: 150px;
+    width: 300px;
+    border: 2px solid #333;
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.h2font {
+    text-align: center;
+    font-size: 34px;
+    color:rgb(86, 25, 26)
+}
+
+.h3font1 {
+    font-family: 'Roboto', sans-serif;
+}
+.h3font2 {
+    font-family: 'Edu AU VIC WA NT Hand', sans-serif;
+}
+.h3font3 {
+    font-family: 'Playwrite HR Lijeva', sans-serif;
+}
+.h3font4 {
+    font-family: 'Playwrite AR', sans-serif;
+}
+.h3font5 {
+    font-family: 'Playwrite AT', sans-serif;
+}
