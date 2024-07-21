@@ -1,3 +1,4 @@
+/* Main shared elements */
 
 html{
     font: size 30px;
@@ -20,6 +21,13 @@ h2{
     background-color: #C58940;
 }
 
+/* Classes for "colors.html" */
+
+.image {
+    height: 100px;
+    width: 100px;
+    align-items: center;
+}
 
 #red {
     text-align: center;
@@ -54,9 +62,11 @@ h2{
     color: yellow
 }
 
+/* Classes for  "the box model.html"*/
+
 .boxmodel1 {
     background-color: cadetblue;
-    padding: 20px;
+    padding: 10px 20px 30px 20px;
     border: 10px solid black;
     height: 200px;
     width: 200px;
@@ -79,6 +89,8 @@ h2{
     width: 200px;
 }
 
+/* Classes for "index.html" */
+
 .mainlinks {
     text-align: center;
     font-size: 40px;
@@ -93,11 +105,7 @@ h2{
     text-indent: 20px;
 }
 
-.image {
-    height: 100px;
-    width: 100px;
-    align-items: center;
-}
+/* Classes for "fonts.html"*/
 
 .image, .imagegooglefonts {
     height: 150px;
